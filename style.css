@@ -1,9 +1,9 @@
 :root{
     --text: #050315;
---background: #232397;
---primary: #2f27ce;
---secondary: #dedcff;
---accent: #605dbe;  
+--background: #1a268f;
+--primary: #1a268f;
+--secondary: #1a268f;
+--accent: #1a268f;  
 
 }
 
@@ -47,7 +47,7 @@ aside{
 
 nav ul{
     list-style: none;
-    background-color: black;    
+    background-color: rgb(255, 255, 255);    
     font-size: 200%;
     display: flex;
     justify-content: space-around;
@@ -77,33 +77,12 @@ main img {
 
 .asidebars {
     
-    margin-top: 2%;
+    margin-top: 5%;
     align-content: space-around;
     display: flex;
     justify-content: space-around;
-    background-color: #050315;
+    background-color: #f7f7f8;
     align-content: center;
     font-size: 200%;
-    margin-top: 3.2em;
+    margin-top: 11.94%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
