@@ -118,3 +118,16 @@ main h3 {
     margin-bottom: 4em;
     margin-top: 4em;
 }
+
+/*STYLING CONTACT PAGE*/
+form {
+    display: grid;
+    grid-template-columns:50% 50% ;
+    align-items: center;
+    row-gap: 0.7em;
+    width: 30em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 3em;
+    padding-top: 2em;
+}
