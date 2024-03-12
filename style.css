@@ -92,5 +92,12 @@ main img {
     margin-bottom: 7em;
 }
 
-/* STYLES PROJECT PAGE*\
+/* STYLES PROJECT PAGE*/
 
+main h1{
+    color: rgb(249, 249, 249);
+}
+
+.project-base{
+   background-color: red;
+}
