@@ -121,13 +121,49 @@ main h3 {
 
 /*STYLING CONTACT PAGE*/
 form {
+    background-color:beige;
     display: grid;
     grid-template-columns:50% 50% ;
     align-items: center;
     row-gap: 0.7em;
     width: 30em;
-    padding-bottom: 2em;
-    padding-left: 2em;
+    
+    padding-bottom: 3em;
+    padding-left: 4em;
     padding-right: 3em;
     padding-top: 2em;
+    justify-content: center;
+    margin-left: 15em;
+    margin-top: 2em;
+}
+
+input[type="submit"]{
+    grid-column: 2;
+}
+
+.animation{
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    pointer-events: none;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.animation p{
+    font-size: 3em;
+    font-weight: bold;
+    color: rgba(red, green, blue, alpha);
+    animation: move 5s linear infinite;
+}
+
+@animation move {
+    0%{
+        transform: translate(0,100%) :
+    }
 }
