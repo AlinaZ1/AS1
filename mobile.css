@@ -1,0 +1,10 @@
+
+body{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    "header"
+    "nav"
+
+}
